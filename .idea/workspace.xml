@@ -34,7 +34,7 @@
         </entry>
       </file>
       <file leaf-file-name="recorder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/recorder.js">
+        <entry file="file://$PROJECT_DIR$/recorder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="3" column="40" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -75,8 +75,8 @@
       <file leaf-file-name="test1_speaking1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1_speaking1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0447154">
-              <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.73170733">
+              <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -123,7 +123,7 @@
         </entry>
       </file>
       <file leaf-file-name="recorderWorker.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/recorderWorker.js">
+        <entry file="file://$PROJECT_DIR$/recorderWorker.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -228,6 +228,20 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="js">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="OGE Static Web">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="images">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -252,6 +266,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\OGE site\OGE Static Web\" />
       <recent name="E:\Projects\OGE site\OGE Static Web\js" />
       <recent name="E:\Projects\OGE site\OGE Static Web" />
     </key>
@@ -679,12 +694,12 @@
       <created>1447332226291</created>
       <option name="number" value="Default" />
       <updated>1447332226291</updated>
-      <workItem from="1447332227491" duration="56523000" />
+      <workItem from="1447332227491" duration="56656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56523000" />
+    <option name="totallyTimeSpent" value="56656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
@@ -735,7 +750,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/recorderWorker.js">
+    <entry file="file://$PROJECT_DIR$/recorderWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -763,7 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/recorder.js">
+    <entry file="file://$PROJECT_DIR$/recorder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="40" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -814,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1_speaking1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0447154">
-          <caret line="138" column="31" selection-start-line="138" selection-start-column="31" selection-end-line="138" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.73170733">
+          <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
