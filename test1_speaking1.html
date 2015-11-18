@@ -7,9 +7,55 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style type="text/css">
-        body { background: rgba(202, 202, 202, 0.1) !important; }
+        body { background: #F9F9DA !important; }
+
+        .jumbotron{
+            background-color: #98b091 ;
+        }
+
+        .bar{
+            padding: 15px;
+            background-color: #98b091 ;
+            border-radius: 4px;
+        }
+
+        .btn-info{
+            background-color: #0487a6;
+            border-color: #077f9a;
+        }
+
+        .text {
+            height:auto;
+            display:inline-block;
+            margin: 10px;
+            border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+            border-color: rgb(252, 227, 176);
+            border-radius: 8px;
+            /*background-color: #f2de6c;*/
+            background-color: #ffffcc;
+            /*background-image: url(https://d3dma7a8zw52bz.cloudfront.net/assets/documents/document_body_rules-f0711254a4cc2b734e9317489d363ce2.gif);*/
+            /*cursor: pointer;*/
+            -webkit-user-select: none;
+        }
+        .text p {
+            height: auto;
+            overflow: hidden;
+        }
+
+        .content-text {
+            padding:50px 50px 50px ;
+            margin: -5px;
+            font-size: medium;
+        }
     </style>
 </head>
+
+<body onload="displayName">
+<div class="row">
+    <div class="bar col-sm-12" align="right" style="margin-bottom: 50px; padding-right: 50px">
+        <span style="align-content: flex-start; font-size: medium">Test 1 </span><span id="student_name" style="align-content: flex-end"></span>
+    </div>
+</div>
 
 <div class="container">
     <div class="jumbotron"><h1>Speaking Test 1</h1>
@@ -51,15 +97,57 @@
 
 
 
-<div class="container" style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding:0 15px 0 15px;">
+<div class="container" style="margin-top: 30px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding:0 15px 0 15px;">
     <div class="row">
-        <div class="col-sm-12" align="right" style="padding: 5px; background-color: rgba(186, 186, 186, 0.64)">
-            <button type="button" class="btn btn-lg btn-info">
+        <div class="bar col-sm-12" align="right">
+            <button type="button" class="btn btn-lg btn-info" onclick="generateLink()">
                 <span class="glyphicon glyphicon-arrow-right"></span> Next
             </button>
         </div>
     </div>
 </div>
+</body>
+
+<script>
+    var QueryString = function () {
+        // This function is anonymous, is executed immediately and
+        // the return value is assigned to QueryString!
+        var query_string = {};
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            // If first entry with this name
+            if (typeof query_string[pair[0]] === "undefined") {
+                query_string[pair[0]] = decodeURIComponent(pair[1]);
+                // If second entry with this name
+            } else if (typeof query_string[pair[0]] === "string") {
+                var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+                query_string[pair[0]] = arr;
+                // If third or later entry with this name
+            } else {
+                query_string[pair[0]].push(decodeURIComponent(pair[1]));
+            }
+        }
+        return query_string;
+    }();
+
+
+    function generateLink()
+    {
+        var name = QueryString.name;
+        var link = "/index.html";
+        console.log(link);
+        window.location.replace(link);
+    }
+
+    function displayName(){
+        var name = QueryString.name;
+        console.log(name);
+        document.getElementById("student_name").innerHTML = name;
+    }
+</script>
+
 
 
 <script>

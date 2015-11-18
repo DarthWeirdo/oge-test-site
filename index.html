@@ -7,9 +7,54 @@
     <script src="js/bootstrap.min.js"></script>
 
     <style type="text/css">
-        body { background: rgba(202, 202, 202, 0.1) !important; }
         .center {
             text-align:center;
+        }
+
+        body {
+            background: url("images/british-flag-large.jpg") !important;
+            /*background-size: 1920px 1080px; !important;*/
+            background-repeat:no-repeat;  !important;
+            display: block; !important;
+        }
+
+        .jumbotron{
+            background-color: #98b091 ;
+        }
+
+        .bar{
+            padding: 15px;
+            background-color: #98b091 ;
+            border-radius: 4px;
+        }
+
+        .btn-info{
+            background-color: #0487a6;
+            border-color: #077f9a;
+        }
+
+        .text {
+            height:auto;
+            display:inline-block;
+            margin: 10px;
+            border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
+            border-color: rgb(252, 227, 176);
+            border-radius: 8px;
+            /*background-color: #f2de6c;*/
+            background-color: #ffffcc;
+            /*background-image: url(https://d3dma7a8zw52bz.cloudfront.net/assets/documents/document_body_rules-f0711254a4cc2b734e9317489d363ce2.gif);*/
+            /*cursor: pointer;*/
+            -webkit-user-select: none;
+        }
+        .text p {
+            height: auto;
+            overflow: hidden;
+        }
+
+        .content-text {
+            padding:50px 50px 50px ;
+            margin: -5px;
+            font-size: medium;
         }
     </style>
 </head>
@@ -31,8 +76,11 @@
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
+            <!--<form class="form-horizontal"-->
+                  <!--style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;">-->
             <form class="form-horizontal"
-                  style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;">
+                      style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;
+                      border-color: rgb(252, 227, 176); border-radius: 8px; background-color: #ffffcc;">
                 <fieldset>
                     <div class="form-group">
                         <label for="inputName" class="col-lg-2 control-label" style="font-size: 12pt;">Name</label>
@@ -56,7 +104,7 @@
 
                     <div class="form-group">
                         <div class="col-lg-4 col-lg-offset-2">
-                            <button type="button" class="btn-lg btn-primary" onclick="generateLink()">Start Testing</button>
+                            <button type="button" class="btn-lg btn-info" onclick="generateLink()">Start Testing</button>
                         </div>
                     </div>
                 </fieldset>
@@ -75,15 +123,15 @@
 
         switch (test){
             case "Test 1":
-                link = "/test1_speaking1.html?name=" + name;
+                link = "/test1_reading1.html?name=" + name;
                 break;
 
             case "Test 2":
-                link = "/test2_speaking1.html?name=" + name;
+                link = "/test2_reading1.html?name=" + name;
                 break;
 
             case "Test 3":
-                link = "/test3_speaking1.html?name=" + name;
+                link = "/test3_reading1.html?name=" + name;
                 break;
         }
 
