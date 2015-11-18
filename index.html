@@ -31,8 +31,8 @@
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <form class="form-horizontal" action="speaking_1.html"
-                  style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 30px 30px 30px 30px;">
+            <form class="form-horizontal"
+                  style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;">
                 <fieldset>
                     <div class="form-group">
                         <label for="inputName" class="col-lg-2 control-label" style="font-size: 12pt;">Name</label>
@@ -56,7 +56,7 @@
 
                     <div class="form-group">
                         <div class="col-lg-4 col-lg-offset-2">
-                            <button type="submit" class="btn-lg btn-primary">Start Testing</button>
+                            <button type="button" class="btn-lg btn-primary" onclick="generateLink()">Start Testing</button>
                         </div>
                     </div>
                 </fieldset>
@@ -65,5 +65,32 @@
     </div>
 
 </div>
+
+<script>
+    function generateLink()
+    {
+        var test = document.getElementById("select").value;
+        var name = document.getElementById("inputName").value;
+        var link;
+
+        switch (test){
+            case "Test 1":
+                link = "/test1_speaking1.html?name=" + name;
+                break;
+
+            case "Test 2":
+                link = "/test2_speaking1.html?name=" + name;
+                break;
+
+            case "Test 3":
+                link = "/test3_speaking1.html?name=" + name;
+                break;
+        }
+
+        console.log(link);
+
+        window.location.replace(link);
+    }
+</script>
 
 </html>
