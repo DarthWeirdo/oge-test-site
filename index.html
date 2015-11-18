@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        body { background: rgba(202, 202, 202, 0.1) !important; }
+        .center {
+            text-align:center;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <div class="jumbotron"><h1>OGE Sample Testing</h1>
+        <p>
+            This is a set of tests that can help students in their preparation for the unified state exam
+            (OGE) in English language.
+        </p>
+        <p>
+            Specify student name in the field below, select a test, and begin testing. Note that test results
+            must be checked by a professional teacher.
+        </p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form class="form-horizontal" action="speaking_1.html"
+                  style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 30px 30px 30px 30px;">
+                <fieldset>
+                    <div class="form-group">
+                        <label for="inputName" class="col-lg-2 control-label" style="font-size: 12pt;">Name</label>
+
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputName" placeholder="Ivan Ivanov">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="select" class="col-lg-2 control-label" style="font-size: 12pt;">Test</label>
+
+                        <div class="col-lg-10">
+                            <select class="form-control" id="select">
+                                <option>Test 1</option>
+                                <option>Test 2</option>
+                                <option>Test 3</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-lg-4 col-lg-offset-2">
+                            <button type="submit" class="btn-lg btn-primary">Start Testing</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</html>
