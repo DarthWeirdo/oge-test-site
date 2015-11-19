@@ -7,21 +7,39 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style type="text/css">
-        body { background: #F9F9DA !important; }
+        /*body { background: #F9F9DA !important; }*/
+
+        body {
+            background-color: #66769f;
+            background-image: url("images/british-flag-large.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+        }
 
         .jumbotron{
-            background-color: #98b091 ;
+            background-color: #B4D9BD ;
         }
 
         .bar{
             padding: 15px;
-            background-color: #98b091 ;
+            background-color: #B4D9BD ;
             border-radius: 4px;
         }
 
         .btn-info{
             background-color: #0487a6;
             border-color: #077f9a;
+        }
+
+        .cool-shadow{
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .student-bar{
+            font-size: medium;
+            color: white;
+            font-weight: bold;
+            align-content: flex-end;
         }
 
         .text {
@@ -50,15 +68,16 @@
     </style>
 </head>
 
-<body onload="displayName">
+<body onload="displayName()">
 <div class="row">
-    <div class="bar col-sm-12" align="right" style="margin-bottom: 50px; padding-right: 50px">
-        <span style="align-content: flex-start; font-size: medium">Test 1 </span><span id="student_name" style="align-content: flex-end"></span>
+    <div class="col-sm-12" align="right" style="margin-bottom: 50px; padding-right: 50px; padding-top: 15px;">
+        <span class="student-bar">Test 1 | </span>
+        <span class="student-bar" id="student_name"></span>
     </div>
 </div>
 
 <div class="container">
-    <div class="jumbotron"><h1>Reading Test 1</h1>
+    <div class="jumbotron cool-shadow"><h1>Reading Test 1</h1>
         <p>
             Read the text. After you read the text, proceed to the next task by clicking
             <span class="glyphicon glyphicon-arrow-right"></span> <b>Next</b>.
@@ -102,7 +121,7 @@
 </div>
 
 
-<div class="container" style="margin-top: 30px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding:0 15px 0 15px;">
+<div class="container cool-shadow" style="margin-top: 30px; padding:0 15px 0 15px;">
     <div class="row">
         <div class="bar col-sm-12" align="right">
             <button type="button" class="btn btn-lg btn-info" onclick="generateLink()">
@@ -148,6 +167,9 @@
 
     function displayName(){
         var name = QueryString.name;
+        if (name==undefined){
+            name="Unknown student";
+        }
         console.log(name);
         document.getElementById("student_name").innerHTML = name;
     }

@@ -12,14 +12,24 @@
         }
 
         body {
-            background: url("images/british-flag-large.jpg") !important;
-            /*background-size: 1920px 1080px; !important;*/
-            background-repeat:no-repeat;  !important;
-            display: block; !important;
+            background-color: #7E8AA7;
+            background-image: url("images/british-flag-large.jpg");
+            background-repeat: no-repeat;
+            background-position: top;
+            /*background: url("images/british-flag-large.jpg") no-repeat top fixed !important;*/
+            /*-webkit-background-size: cover;*/
+            /*-moz-background-size: cover;*/
+            /*-o-background-size: cover;*/
+            /*background-size: cover;*/
+
+            /*!*background-size: 1920px 1080px; !important;*!*/
+            /*background-repeat:no-repeat;  !important;*/
+            /*display: block; !important;*/
         }
 
         .jumbotron{
-            background-color: #98b091 ;
+            /*background-color: #98b091 ;*/
+            background-color: #B4D9BD ;
         }
 
         .bar{
@@ -33,6 +43,17 @@
             border-color: #077f9a;
         }
 
+        .cool-shadow{
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .student-bar{
+            font-size: medium;
+            color: white;
+            font-weight: bold;
+            align-content: flex-end;
+        }
+
         .text {
             height:auto;
             display:inline-block;
@@ -40,10 +61,8 @@
             border:1px solid #ddd; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); margin: 15px 0; overflow:hidden;
             border-color: rgb(252, 227, 176);
             border-radius: 8px;
-            /*background-color: #f2de6c;*/
-            background-color: #ffffcc;
-            /*background-image: url(https://d3dma7a8zw52bz.cloudfront.net/assets/documents/document_body_rules-f0711254a4cc2b734e9317489d363ce2.gif);*/
-            /*cursor: pointer;*/
+            /*background-color: #ffffcc;*/
+            background-color: #BFA084;
             -webkit-user-select: none;
         }
         .text p {
@@ -59,8 +78,8 @@
     </style>
 </head>
 
-<div class="container">
-    <div class="jumbotron"><h1>OGE Sample Testing</h1>
+<div class="container" style="padding-top: 30px">
+    <div class="jumbotron cool-shadow"><h1>OGE Sample Testing</h1>
         <p>
             This is a set of tests that can help students in their preparation for the unified state exam
             (OGE) in English language.
@@ -76,10 +95,8 @@
 
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-            <!--<form class="form-horizontal"-->
-                  <!--style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;">-->
-            <form class="form-horizontal"
-                      style="margin-top: 50px; box-shadow: 0 0 5px rgba(199, 199, 199, 0.64); padding: 50px 30px 30px 30px;
+            <form class="form-horizontal cool-shadow"
+                      style="margin-top: 50px; padding: 50px 30px 30px 30px;
                       border-color: rgb(252, 227, 176); border-radius: 8px; background-color: #ffffcc;">
                 <fieldset>
                     <div class="form-group">

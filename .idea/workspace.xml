@@ -46,9 +46,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2258065">
-              <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+            <state vertical-scroll-proportion="-6.193548">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#1;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
@@ -60,12 +61,10 @@
       <file leaf-file-name="test1_reading1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test1_reading1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.967742">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="49" selection-end-column="12" />
+            <state vertical-scroll-proportion="-7.806452">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -75,14 +74,12 @@
       <file leaf-file-name="test1_speaking1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test1_speaking1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73170733">
-              <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+            <state vertical-scroll-proportion="2.2357724">
+              <caret line="100" column="109" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,8 +148,8 @@
       <list>
         <option value="$PROJECT_DIR$/recorder.js" />
         <option value="$PROJECT_DIR$/speaking_1.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test1_reading1.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test1_speaking1.html" />
       </list>
     </option>
@@ -260,7 +257,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test1_speaking1.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test1_reading1.html" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -272,10 +269,10 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.test1_speaking1.html">
-    <configuration default="false" name="test1_speaking1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OGE Static Web/test1_speaking1.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OGE Static Web/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OGE Static Web/index.html">
+    <configuration default="false" name="test1_speaking1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/OGE Static Web/test1_speaking1.html">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -673,9 +670,13 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test1_speaking1.html" />
+    <configuration default="false" name="test1_reading1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="false" nameIsGenerated="true" uri="http://localhost:63342/OGE Static Web/test1_reading1.html">
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test1_reading1.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.test1_speaking1.html" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -694,12 +695,12 @@
       <created>1447332226291</created>
       <option name="number" value="Default" />
       <updated>1447332226291</updated>
-      <workItem from="1447332227491" duration="56656000" />
+      <workItem from="1447332227491" duration="64251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56656000" />
+    <option name="totallyTimeSpent" value="64251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1176" extended-state="6" />
@@ -729,6 +730,31 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Stardust" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -804,9 +830,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2258065">
-          <caret line="106" column="61" selection-start-line="106" selection-start-column="61" selection-end-line="106" selection-end-column="61" />
+        <state vertical-scroll-proportion="-6.193548">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="54" selection-end-column="9" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#1;n#fieldset#0;n#form#0;n#div#0;n#div#0;n#div#1;n#html#0;n#!!top" expanded="true" />
@@ -816,12 +843,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1_reading1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.967742">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="49" selection-end-column="12" />
+        <state vertical-scroll-proportion="-7.806452">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -829,14 +854,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test1_speaking1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73170733">
-          <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+        <state vertical-scroll-proportion="2.2357724">
+          <caret line="100" column="109" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
