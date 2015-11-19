@@ -67,7 +67,7 @@
     </style>
 </head>
 
-<body onload="displayName()">
+<body>
 <div class="row">
     <div class="col-sm-12" align="right" style="margin-bottom: 50px; padding-right: 50px; padding-top: 15px;">
         <span class="student-bar">Test 1 | </span>
@@ -224,6 +224,7 @@
     }
 
     window.onload = function init() {
+        displayName();
         try {
             window.AudioContext = window.AudioContext || window.webkitAudioContext;
             navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia;
