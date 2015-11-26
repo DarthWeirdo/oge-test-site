@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Speaking Test 1</title>
+    <meta charset="UTF-8">
+    <title>A Dialog in English</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -66,7 +67,6 @@
         }
     </style>
 </head>
-
 <body>
 <div class="row">
     <div class="col-sm-12" align="right" style="margin-bottom: 50px; padding-right: 50px; padding-top: 15px;">
@@ -76,14 +76,15 @@
 </div>
 
 <div class="container">
-    <div class="jumbotron cool-shadow"><h1>Speaking Test 1</h1>
+    <div class="jumbotron cool-shadow"><h1>Dialog 1</h1>
         <p>
-            You have two minutes to pass the test. The countdown and the recording starts after you click
+            You should listen to the speech and respond to it.
+            You have only 30 seconds to record your answer. The countdown and the recording starts after you click
             the <span class="glyphicon glyphicon-record"></span> <b>Record</b> button.
             Before starting the test, make sure your microphone is connected to the computer.
         </p>
         <p>
-            After two minutes, the recording will be automatically stopped and you will be prompted to save the audio
+            After 30 seconds, the recording will be automatically stopped and you will be prompted to save the audio
             file. If you finish earlier, you can press
             the <span class="glyphicon glyphicon-stop"></span> <b>Stop</b> button to stop and save the recording. Note
             that you can click <span class="glyphicon glyphicon-record"></span> <b>Record</b> and
@@ -91,41 +92,54 @@
         </p></div>
 </div>
 
-<!--<div class="container">-->
-    <!--<div class="row">-->
-        <!--<div class="col-sm-12" align="center">-->
-            <!--<h1 id="timer" style="font-size: 45pt;"></h1>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-
-
-<!--<div class="container">-->
-    <!--<div class="row">-->
-        <!--<div class="col-sm-12" align="center">-->
 <div class="container">
 
-    <div class="row">
-        <div class="col-sm-12" align="center">
-            <h1 id="timer" style="font-size: 45pt;"></h1>
-        </div>
-    </div>
+
 
     <div class="row">
         <div class="text col-sm-12" align="center">
             <div class="content-text">
-                <button onclick="startRecording(this);" type="button" class="btn btn-lg btn-primary">
-                    <span class="glyphicon glyphicon-record"></span> Record
-                </button>
-                <button id="buttonStop" onclick="stopRecording(this);" type="button" class="btn btn-lg btn-default" disabled>
-                    <span class="glyphicon glyphicon-stop"></span> Stop
-                </button>
+                <div class="row">
+                    <div class="col-sm-12" align="left">
+                        <h1>Part 1 of 5</h1>
+                    </div>
+                    <div class="col-sm-12" align="left">
+                        <h2>1. Listen to the speech.</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" align="left">
+                        <p style="font-weight: bold; font-size: x-large;">
+                            "Hello! My name is Mia and what's yours?"
+                        </p>
+                            <button onclick="playSound();" type="button" class="btn btn-lg btn-primary">
+                                <span class="glyphicon glyphicon-play"></span> Play
+                            </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12" align="left">
+                        <h2>2. Provide your answer.</h2>
+
+                        <div class="row">
+                            <div class="col-sm-12" align="left">
+                                <h1 id="timer" style="font-size: xx-large;"></h1>
+                            </div>
+                        </div>
+
+                            <button onclick="startRecording(this);" type="button" class="btn btn-lg btn-primary">
+                                <span class="glyphicon glyphicon-record"></span> Record
+                            </button>
+                            <button id="buttonStop" onclick="stopRecording(this);" type="button"
+                                    class="btn btn-lg btn-default" disabled>
+                                <span class="glyphicon glyphicon-stop"></span> Stop
+                            </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
 
 <div class="container cool-shadow" style="margin-top: 30px; padding:0 15px 0 15px;">
     <div class="row">
@@ -136,52 +150,8 @@
         </div>
     </div>
 </div>
+
 </body>
-
-<script>
-    var QueryString = function () {
-        // This function is anonymous, is executed immediately and
-        // the return value is assigned to QueryString!
-        var query_string = {};
-        var query = window.location.search.substring(1);
-        var vars = query.split("&");
-        for (var i=0;i<vars.length;i++) {
-            var pair = vars[i].split("=");
-            // If first entry with this name
-            if (typeof query_string[pair[0]] === "undefined") {
-                query_string[pair[0]] = decodeURIComponent(pair[1]);
-                // If second entry with this name
-            } else if (typeof query_string[pair[0]] === "string") {
-                var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
-                query_string[pair[0]] = arr;
-                // If third or later entry with this name
-            } else {
-                query_string[pair[0]].push(decodeURIComponent(pair[1]));
-            }
-        }
-        return query_string;
-    }();
-
-
-    function generateLink()
-    {
-        var name = QueryString.name;
-        var link = "/test1_dialog1.html?name=" + name;
-        console.log(link);
-        window.location.replace(link);
-    }
-
-    function displayName(){
-        var name = QueryString.name;
-        if (name==undefined){
-            name="Unknown student";
-        }
-        console.log(name);
-        document.getElementById("student_name").innerHTML = name;
-    }
-</script>
-
-
 
 <script>
     function __log(e, data) {
@@ -191,6 +161,23 @@
     var audioContext;
     var recorder;
     var testEnd = false;
+    var bufferLoader = null;
+
+    function playSound(){
+        var context = new webkitAudioContext();
+        var analyser = context.createAnalyser();
+        var source;
+        var audio0 = new Audio();
+        audio0.src = 'wav/test.wav';
+        audio0.controls = false;
+        audio0.autoplay = true;
+        audio0.loop = false;
+        source = context.createMediaElementSource(audio0);
+        source.connect(analyser);
+        analyser.connect(context.destination);
+
+        audio0.play();
+    }
 
 
     function startUserMedia(stream) {
@@ -270,4 +257,45 @@
 
 <script src="recorder.js"></script>
 
+<script>
+    var QueryString = function () {
+        // This function is anonymous, is executed immediately and
+        // the return value is assigned to QueryString!
+        var query_string = {};
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i=0;i<vars.length;i++) {
+            var pair = vars[i].split("=");
+            // If first entry with this name
+            if (typeof query_string[pair[0]] === "undefined") {
+                query_string[pair[0]] = decodeURIComponent(pair[1]);
+                // If second entry with this name
+            } else if (typeof query_string[pair[0]] === "string") {
+                var arr = [ query_string[pair[0]],decodeURIComponent(pair[1]) ];
+                query_string[pair[0]] = arr;
+                // If third or later entry with this name
+            } else {
+                query_string[pair[0]].push(decodeURIComponent(pair[1]));
+            }
+        }
+        return query_string;
+    }();
+
+
+    function generateLink()
+    {
+        var link = "/index.html";
+        console.log(link);
+        window.location.replace(link);
+    }
+
+    function displayName(){
+        var name = QueryString.name;
+        if (name==undefined){
+            name="Unknown student";
+        }
+        console.log(name);
+        document.getElementById("student_name").innerHTML = name;
+    }
+</script>
 </html>
